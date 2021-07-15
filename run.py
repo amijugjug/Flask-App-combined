@@ -15,6 +15,5 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 db=SQLAlchemy(app)
 '''
 from flask_blog import app
-    # From GIT of Corey #
 if __name__ == '__main__':
     app.run(debug=True)
